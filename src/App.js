@@ -20,6 +20,7 @@ function App() {
           src={randomImage.urls.regular}
           alt={randomImage.alt_description}
           author={randomImage.user.name}
+          id={randomImage.id}
         />
       )}
     </main>

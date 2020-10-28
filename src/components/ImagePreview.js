@@ -1,5 +1,5 @@
 import React from "react";
-import "./../components/ImagePreview.css";
+import "./ImagePreview.css";
 
 export default function ImagePreview({ src, alt, author }) {
   return (

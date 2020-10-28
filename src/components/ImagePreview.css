@@ -2,12 +2,27 @@
   display: grid;
   margin: 20px;
   place-items: center;
+  width: 40%;
+  position: relative;
 }
 
 .imageThumb {
-  width: 40%;
+  width: 100%;
+  margin: 0;
 }
 
 .imageAuthor {
   margin: 5px;
+}
+
+.fav_btn {
+  font-size: 25px;
+  color: red;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  right: 10px;
+  top: 10px;
 }

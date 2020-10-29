@@ -4,6 +4,7 @@ import { useState } from "react";
 import Button from "./components/Button";
 import ImagePreview from "./components/ImagePreview";
 import { getRandomImage } from "./../src/api/getRandomImage";
+import FavoriteImage from "./components/FavoriteImage";
 
 function App() {
   const [randomImage, setRandomImage] = useState(null);
@@ -24,6 +25,10 @@ function App() {
           id={randomImage.id}
         />
       )}
+      <FavoriteImage
+        src="https://source.unsplash.com/UjD08DRW24E"
+        alt="description"
+      />
     </main>
   );
 }

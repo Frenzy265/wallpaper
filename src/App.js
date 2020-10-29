@@ -4,7 +4,6 @@ import { useState } from "react";
 import Button from "./components/Button";
 import ImagePreview from "./components/ImagePreview";
 import { getRandomImage } from "./../src/api/getRandomImage";
-import FavoriteImage from "./components/FavoriteImage";
 import FavoriteImageList from "./components/FavoriteImageList";
 
 function App() {
@@ -26,7 +25,7 @@ function App() {
           id={randomImage.id}
         />
       )}
-      <FavoriteImageList photoId="UjD08DRW24E" />
+      <FavoriteImageList photoIds={["UjD08DRW24E"]} />
     </main>
   );
 }

@@ -25,7 +25,7 @@ function App() {
         />
       )}
       <FavoriteImage
-        src="https://images.unsplash.com/photo-1603321647183-619ca1e1d110?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3Nzk4NX0"
+        src="https://source.unsplash.com/UjD08DRW24E"
         alt="description"
       />
     </main>
